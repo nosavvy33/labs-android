@@ -16,6 +16,8 @@ public class MainActivity extends AppCompatActivity {
     private EditText fullnameInput;
     private EditText amountInput;
 
+    private static final int ACTIVITY_A_REQUEST = 100;
+    private static final int ACTIVITY_B_REQUEST = 200;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
